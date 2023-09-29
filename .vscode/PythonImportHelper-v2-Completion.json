@@ -1,0 +1,826 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.asgi",
+        "description": "backend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-o56l2jg2#4t1uvu=*k4orm94x%2ib+)1d1j9w8j597azjlm^zk\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-o56l2jg2#4t1uvu=*k4orm94x%2ib+)1d1j9w8j597azjlm^zk\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    'rest_framework',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    'rest_framework',\n    \"categories\",\n    \"meals\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"backend.urls\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ROOT_URLCONF = \"backend.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {  \n        'ENGINE': 'django.db.backends.mysql',  \n        'NAME': 'research_db',  \n        'USER': 'root',  \n        'PASSWORD': 'root',  \n        'HOST': '127.0.0.1',  ",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {  \n        'ENGINE': 'django.db.backends.mysql',  \n        'NAME': 'research_db',  \n        'USER': 'root',  \n        'PASSWORD': 'root',  \n        'HOST': '127.0.0.1',  \n        'PORT': '3306',  \n        'OPTIONS': {  \n            'init_command': \"SET sql_mode='STRICT_TRANS_TABLES'\"  ",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.urls",
+        "description": "backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path('api-auth/', include('rest_framework.urls')),\n    path(\"cat/\", include(\"categories.urls\")),\n    path(\"meals/\", include(\"meals.urls\")),\n]",
+        "detail": "backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.wsgi",
+        "description": "backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "categories.migrations.0001_initial",
+        "description": "categories.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"category\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "categories.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CategoriesConfig",
+        "kind": 6,
+        "importPath": "categories.apps",
+        "description": "categories.apps",
+        "peekOfCode": "class CategoriesConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"categories\"",
+        "detail": "categories.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "categories.models",
+        "description": "categories.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.name",
+        "detail": "categories.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "kind": 6,
+        "importPath": "categories.serializer",
+        "description": "categories.serializer",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Category\n        fields = '__all__'",
+        "detail": "categories.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "categories.urls",
+        "description": "categories.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', CategoryViewSet.as_view() , name='categories'),\n    path('<int:pk>', CategoryViewSet.as_view() , name='categoriesbyid'),\n]",
+        "detail": "categories.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryViewSet",
+        "kind": 6,
+        "importPath": "categories.views",
+        "description": "categories.views",
+        "peekOfCode": "class CategoryViewSet(APIView):\n    def post(self, request):\n        serializer = CategorySerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data , status=status.HTTP_201_CREATED) \n        return Response(serializer.errors , status=status.HTTP_400_BAD_REQUEST)\n    def get(self, request , pk=None):\n        if pk:\n            categories = Category.objects.get(id=pk)",
+        "detail": "categories.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "healthprofiles.migrations.0001_initial",
+        "description": "healthprofiles.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"HealthProfile\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "healthprofiles.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "HealthprofilesConfig",
+        "kind": 6,
+        "importPath": "healthprofiles.apps",
+        "description": "healthprofiles.apps",
+        "peekOfCode": "class HealthprofilesConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"healthprofiles\"",
+        "detail": "healthprofiles.apps",
+        "documentation": {}
+    },
+    {
+        "label": "HealthProfile",
+        "kind": 6,
+        "importPath": "healthprofiles.models",
+        "description": "healthprofiles.models",
+        "peekOfCode": "class HealthProfile(models.Model):\n    calories = models.FloatField(null=False , default=0)\n    carbohydrateContent = models.FloatField(null=False , default=0)\n    cholesterolContent = models.FloatField(null=False , default=0)\n    fatContent = models.FloatField(null=False , default=0)\n    fiberContent = models.FloatField(null=False , default=0)\n    proteinContent = models.FloatField(null=False , default=0)\n    saturatedFatContent = models.FloatField(null=False , default=0)\n    sodiumContent = models.FloatField(null=False , default=0)\n    sugarContent = models.FloatField(null=False , default=0)",
+        "detail": "healthprofiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "HealthProfileSerializer",
+        "kind": 6,
+        "importPath": "healthprofiles.serializer",
+        "description": "healthprofiles.serializer",
+        "peekOfCode": "class HealthProfileSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HealthProfile\n        fields = '__all__'",
+        "detail": "healthprofiles.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "healthprofiles.urls",
+        "description": "healthprofiles.urls",
+        "peekOfCode": "urlpatterns = [\n    path('' , HealthProfileView.as_view() , name='healthprofiles'),\n    path('<int:pk>/' , HealthProfileView.as_view() , name='healthprofilesbyid'),\n]",
+        "detail": "healthprofiles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "HealthProfileView",
+        "kind": 6,
+        "importPath": "healthprofiles.views",
+        "description": "healthprofiles.views",
+        "peekOfCode": "class HealthProfileView(APIView):\n    def get(self, request):\n        healthprofiles = HealthProfile.objects.all()\n        serializer = HealthProfileSerializer(healthprofiles, many=True)\n        return Response(serializer.data , status=status.HTTP_200_OK)\n    def post(self , request):\n        serializer = HealthProfileSerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data , status=status.HTTP_201_CREATED)",
+        "detail": "healthprofiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "meals.migrations.0001_initial",
+        "description": "meals.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Meal\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "meals.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
+        "description": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"meals\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"ingredient\",\n            fields=[\n                (\n                    \"id\",",
+        "detail": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
+        "description": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"meals\", \"0002_ingredient_keyword_meal_calories_and_more\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"meal\",\n            name=\"ingredients\",\n            field=models.ManyToManyField(\n                related_name=\"ingredients\", to=\"meals.ingredient\"",
+        "detail": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "MealsConfig",
+        "kind": 6,
+        "importPath": "meals.apps",
+        "description": "meals.apps",
+        "peekOfCode": "class MealsConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"meals\"",
+        "detail": "meals.apps",
+        "documentation": {}
+    },
+    {
+        "label": "keyword",
+        "kind": 6,
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "peekOfCode": "class keyword(models.Model):\n    keyword = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\nclass ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n# Create your models here.\nclass Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)",
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "ingredient",
+        "kind": 6,
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "peekOfCode": "class ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n# Create your models here.\nclass Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)\n    calories = models.FloatField(null=False , default=0)\n    carbohydrateContent = models.FloatField(null=False , default=0)\n    cholesterolContent = models.FloatField(null=False , default=0)",
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "Meal",
+        "kind": 6,
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "peekOfCode": "class Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)\n    calories = models.FloatField(null=False , default=0)\n    carbohydrateContent = models.FloatField(null=False , default=0)\n    cholesterolContent = models.FloatField(null=False , default=0)\n    fatContent = models.FloatField(null=False , default=0)\n    fiberContent = models.FloatField(null=False , default=0)\n    proteinContent = models.FloatField(null=False , default=0)\n    saturatedFatContent = models.FloatField(null=False , default=0)",
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "keywordSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class keywordSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = keyword\n        fields = '__all__'\nclass ingredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ingredientSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class ingredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)\n    ingredients = ingredientSerializer(many=True)\n    class Meta:\n        model = Meal\n        fields = '__all__'",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MealSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)\n    ingredients = ingredientSerializer(many=True)\n    class Meta:\n        model = Meal\n        fields = '__all__'\n    def create(self , validated_data):\n        keywords_data = validated_data.pop('keywords')\n        ingredients_data = validated_data.pop('ingredients')\n        meal = Meal.objects.create(**validated_data)",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "meals.urls",
+        "description": "meals.urls",
+        "peekOfCode": "urlpatterns = [\n    path('' , MealView.as_view() , name='meal'),\n]",
+        "detail": "meals.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MealView",
+        "kind": 6,
+        "importPath": "meals.views",
+        "description": "meals.views",
+        "peekOfCode": "class MealView(APIView):\n    def get(self , request):\n        meals = Meal.objects.all()\n        serializer = MealSerializer(meals , many=True)\n        return Response(serializer.data , status=status.HTTP_200_OK)\n    def post(self , request):\n        serializer = MealSerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response({\"message\" : \"New meal added\"} , status=status.HTTP_201_CREATED)",
+        "detail": "meals.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"backend.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
