@@ -1,3 +1,4 @@
+from collections.abc import Iterable
 from django.db import models
 
 # Create your models here.
@@ -16,3 +17,4 @@ class HealthProfile(models.Model):
     
     def __str__(self) -> str:
         return self.condition_name
+    

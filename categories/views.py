@@ -1,12 +1,19 @@
 from django.shortcuts import render
+from users.authentication import JWTAuthentication
 from .models import Category
 from rest_framework import viewsets , status 
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .serializer import CategorySerializer
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import SessionAuthentication
 # Create your views here.
 
 class CategoryViewSet(APIView):
+    
+    authentication_classes = [SessionAuthentication , JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    
     def post(self, request):
         serializer = CategorySerializer(data=request.data)
         if serializer.is_valid():

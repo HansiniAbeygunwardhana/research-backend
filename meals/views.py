@@ -1,16 +1,25 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from .models import Meal , keyword , ingredient
-from .serializers import MealSerializer , keywordSerializer , ingredientSerializer
+from .serializers import MealSerializer , keywordSerializer , ingredientSerializer , MealSerializerBasic
 from rest_framework import viewsets , status
 from rest_framework.response import Response
 
 # Create your views here.
 class MealView(APIView):
-    def get(self , request):
-        meals = Meal.objects.all()
-        serializer = MealSerializer(meals , many=True)
-        return Response(serializer.data , status=status.HTTP_200_OK)
+    def get(self , request , pk=None):
+        if pk:
+            meal = Meal.objects.get(id=pk)
+            if meal:
+                serializer = MealSerializer(meal)
+                return Response(serializer.data)
+            else:
+                return Response({"message" : "Meal not found"} , status=status.HTTP_404_NOT_FOUND)
+        else:
+            meals = Meal.objects.all()
+            serializer = MealSerializerBasic(meals , many=True)
+            return Response(serializer.data)
+    
     
     def post(self , request):
         serializer = MealSerializer(data=request.data)

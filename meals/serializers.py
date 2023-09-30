@@ -31,3 +31,17 @@ class MealSerializer(serializers.ModelSerializer):
             meal.ingredients.add(ingredient_obj)
         return meal
     
+class MealSerializerBasic(serializers.ModelSerializer):
+    
+    ingredients = serializers.SerializerMethodField()
+    keywords = serializers.SerializerMethodField()
+    
+    class Meta:
+        model = Meal
+        fields = ['id' , 'name' , 'description' ,'image' , 'price' , 'ingredients' , 'keywords']
+        
+    def get_ingredients(self, obj):
+        return [ingredient.ingredient for ingredient in obj.ingredients.all()]
+    def get_keywords(self, obj):
+        return [keyword.keyword for keyword in obj.keywords.all()]
+    
