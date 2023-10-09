@@ -74,6 +74,14 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -83,6 +91,14 @@
     },
     {
         "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -194,6 +210,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -242,6 +266,38 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -314,6 +370,22 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -375,6 +447,22 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -450,6 +538,22 @@
         "documentation": {}
     },
     {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
         "label": "APIView",
         "importPath": "rest_framework.views",
         "description": "rest_framework.views",
@@ -490,6 +594,14 @@
         "documentation": {}
     },
     {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
         "label": "SessionAuthentication",
         "importPath": "rest_framework.authentication",
         "description": "rest_framework.authentication",
@@ -506,11 +618,76 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
         "label": "Iterable",
         "importPath": "collections.abc",
         "description": "collections.abc",
         "isExtraImport": true,
         "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -528,6 +705,31 @@
         "description": "sklearn.feature_extraction.text",
         "isExtraImport": true,
         "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
         "documentation": {}
     },
     {
@@ -557,44 +759,28 @@
         "documentation": {}
     },
     {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "keyword",
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "isExtraImport": true,
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "jwt",
         "description": "jwt",
         "detail": "jwt",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -866,7 +1052,7 @@
         "kind": 5,
         "importPath": "backend.urls",
         "description": "backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path('api-auth/', include('rest_framework.urls')),\n    path(\"cat/\", include(\"categories.urls\")),\n    path(\"meals/\", include(\"meals.urls\")),\n    path(\"auth/\", include(\"users.urls\")),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path('api-auth/', include('rest_framework.urls')),\n    path(\"cat/\", include(\"categories.urls\")),\n    path(\"meals/\", include(\"meals.urls\")),\n    path(\"auth/\", include(\"users.urls\")),\n    path(\"search/\", include(\"recommandation.urls\")),\n]",
         "detail": "backend.urls",
         "documentation": {}
     },
@@ -943,6 +1129,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "healthprofiles.migrations.0002_healthprofile_user",
+        "description": "healthprofiles.migrations.0002_healthprofile_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"healthprofiles\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"healthprofile\",\n            name=\"user\",\n            field=models.OneToOneField(",
+        "detail": "healthprofiles.migrations.0002_healthprofile_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "healthprofiles.migrations.0003_alter_healthprofile_user",
+        "description": "healthprofiles.migrations.0003_alter_healthprofile_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"healthprofiles\", \"0002_healthprofile_user\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"healthprofile\",\n            name=\"user\",\n            field=models.OneToOneField(",
+        "detail": "healthprofiles.migrations.0003_alter_healthprofile_user",
+        "documentation": {}
+    },
+    {
         "label": "HealthprofilesConfig",
         "kind": 6,
         "importPath": "healthprofiles.apps",
@@ -990,81 +1194,90 @@
     {
         "label": "meal_data['RecipeIngredientParts']",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "meal_data['RecipeIngredientParts'] = meal_data['RecipeIngredientParts'].str.lower()\n### Preparing database\ningredient_db = set()\nfor ingredients in meal_data['RecipeIngredientParts']:\n    ingredient_list = ingredients.split(',')\n    ingredient_db.update([ingredient.strip() for ingredient in ingredient_list])\n##### Converting data in to feature vectors\nvectorizer = TfidfVectorizer()\nmeal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "ingredient_db",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "ingredient_db = set()\nfor ingredients in meal_data['RecipeIngredientParts']:\n    ingredient_list = ingredients.split(',')\n    ingredient_db.update([ingredient.strip() for ingredient in ingredient_list])\n##### Converting data in to feature vectors\nvectorizer = TfidfVectorizer()\nmeal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model\nimport joblib\nmodel_filename = \"ingredients-aware-model.pkl\"",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "vectorizer",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "vectorizer = TfidfVectorizer()\nmeal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model\nimport joblib\nmodel_filename = \"ingredients-aware-model.pkl\"\nknn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "meal_vectors",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "meal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model\nimport joblib\nmodel_filename = \"ingredients-aware-model.pkl\"\nknn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "model_filename",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "model_filename = \"ingredients-aware-model.pkl\"\nknn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "knn",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "knn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "user_input",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "user_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "user_ingredients",
         "kind": 5,
-        "importPath": "machine_learning_model.meal_recommendation_system",
-        "description": "machine_learning_model.meal_recommendation_system",
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
         "peekOfCode": "user_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
-        "detail": "machine_learning_model.meal_recommendation_system",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
         "documentation": {}
     },
     {
         "label": "user_vector",
         "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "user_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
         "importPath": "machine_learning_model.meal_recommendation_system",
         "description": "machine_learning_model.meal_recommendation_system",
-        "peekOfCode": "user_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
+        "peekOfCode": "conn = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"root\",\n    database=\"sample_data\"\n)\nif conn.is_connected():\n    print('Connected to MySQL database')\n    # Load meal data from MySQL\n    meal_data = pd.read_sql('SELECT * FROM mytable', conn)",
         "detail": "machine_learning_model.meal_recommendation_system",
         "documentation": {}
     },
@@ -1109,7 +1322,7 @@
         "kind": 6,
         "importPath": "meals.models",
         "description": "meals.models",
-        "peekOfCode": "class keyword(models.Model):\n    keyword = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\nclass ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n# Create your models here.\nclass Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)",
+        "peekOfCode": "class keyword(models.Model):\n    keyword = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.keyword\nclass ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.ingredient",
         "detail": "meals.models",
         "documentation": {}
     },
@@ -1118,7 +1331,7 @@
         "kind": 6,
         "importPath": "meals.models",
         "description": "meals.models",
-        "peekOfCode": "class ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n# Create your models here.\nclass Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)\n    calories = models.FloatField(null=False , default=0)\n    carbohydrateContent = models.FloatField(null=False , default=0)\n    cholesterolContent = models.FloatField(null=False , default=0)",
+        "peekOfCode": "class ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.ingredient\n# Create your models here.\nclass Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)\n    calories = models.FloatField(null=False , default=0)",
         "detail": "meals.models",
         "documentation": {}
     },
@@ -1183,6 +1396,42 @@
         "description": "meals.views",
         "peekOfCode": "class MealView(APIView):\n    def get(self , request , pk=None):\n        if pk:\n            meal = Meal.objects.get(id=pk)\n            if meal:\n                serializer = MealSerializer(meal)\n                return Response(serializer.data)\n            else:\n                return Response({\"message\" : \"Meal not found\"} , status=status.HTTP_404_NOT_FOUND)\n        else:",
         "detail": "meals.views",
+        "documentation": {}
+    },
+    {
+        "label": "RecommandationConfig",
+        "kind": 6,
+        "importPath": "recommandation.apps",
+        "description": "recommandation.apps",
+        "peekOfCode": "class RecommandationConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"recommandation\"",
+        "detail": "recommandation.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "recommandation.urls",
+        "description": "recommandation.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', RecommandationView.as_view()),\n]",
+        "detail": "recommandation.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RecommandationView",
+        "kind": 6,
+        "importPath": "recommandation.views",
+        "description": "recommandation.views",
+        "peekOfCode": "class RecommandationView(APIView):\n    permission_classes = [AllowAny]\n    authentication_classes = []\n    def get(self, request : HttpRequest):\n        meal_type = request.GET.getlist('meal' , [])\n        meal_type = [meal.lower() for meal in meal_type]\n        print(meal_type)\n        recommended_meals = []\n        if conn.is_connected():\n            print('Connected to MySQL database')",
+        "detail": "recommandation.views",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "recommandation.views",
+        "description": "recommandation.views",
+        "peekOfCode": "conn = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"root\",\n    database=\"sample_data\"\n)\nclass RecommandationView(APIView):\n    permission_classes = [AllowAny]\n    authentication_classes = []\n    def get(self, request : HttpRequest):",
+        "detail": "recommandation.views",
         "documentation": {}
     },
     {

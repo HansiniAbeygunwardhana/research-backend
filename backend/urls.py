@@ -10,4 +10,5 @@ urlpatterns = [
     path("cat/", include("categories.urls")),
     path("meals/", include("meals.urls")),
     path("auth/", include("users.urls")),
+    path("search/", include("recommandation.urls")),
 ]

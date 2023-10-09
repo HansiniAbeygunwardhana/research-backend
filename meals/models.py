@@ -4,9 +4,15 @@ class keyword(models.Model):
     keyword = models.CharField(max_length=100, null=False)
     created_at = models.DateTimeField(auto_now_add=True)
     
+    def __str__(self) -> str:
+        return self.keyword
+    
 class ingredient(models.Model):
     ingredient = models.CharField(max_length=100, null=False)
     created_at = models.DateTimeField(auto_now_add=True)
+    
+    def __str__(self) -> str:
+        return self.ingredient
 
 # Create your models here.
 class Meal(models.Model):
@@ -30,5 +36,6 @@ class Meal(models.Model):
     
     def __str__(self) -> str:
         return self.name
+    
     
     
