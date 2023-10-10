@@ -8,7 +8,6 @@ class KeywordSerializer(serializers.ModelSerializer):
         
 class KeywordSerialiserBasic(serializers.ModelSerializer):
     
-    
     class Meta :
         model = keyword
         fields = ['keyword']

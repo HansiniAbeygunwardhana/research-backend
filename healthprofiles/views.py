@@ -19,7 +19,7 @@ class HealthProfileView(APIView):
         user = request.user
         if user is None:
             return Response({"message" : "User not found"} , status=status.HTTP_404_NOT_FOUND)
-        healthprofile = get_object_or_404(HealthProfile , user = user)
+        healthprofile = HealthProfile.objects.filter(user=user).first()
         if healthprofile :
             serializer = HealthProfileSerializer(healthprofile)
             return Response(serializer.data)

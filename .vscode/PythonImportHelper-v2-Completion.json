@@ -266,14 +266,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -282,55 +274,7 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
+        "label": "IntegrityError",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -474,7 +418,7 @@
         "documentation": {}
     },
     {
-        "label": "render",
+        "label": "get_object_or_404",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -495,6 +439,22 @@
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "importPath": "users.authentication",
+        "description": "users.authentication",
+        "isExtraImport": true,
+        "detail": "users.authentication",
         "documentation": {}
     },
     {
@@ -594,6 +554,14 @@
         "documentation": {}
     },
     {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
         "label": "AllowAny",
         "importPath": "rest_framework.permissions",
         "description": "rest_framework.permissions",
@@ -642,14 +610,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
@@ -664,6 +624,14 @@
         "description": "collections.abc",
         "isExtraImport": true,
         "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -739,15 +707,6 @@
         "importPath": "joblib",
         "description": "joblib",
         "detail": "joblib",
-        "documentation": {}
-    },
-    {
-        "label": "django.utils.timezone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
@@ -1052,7 +1011,7 @@
         "kind": 5,
         "importPath": "backend.urls",
         "description": "backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path('api-auth/', include('rest_framework.urls')),\n    path(\"cat/\", include(\"categories.urls\")),\n    path(\"meals/\", include(\"meals.urls\")),\n    path(\"auth/\", include(\"users.urls\")),\n    path(\"search/\", include(\"recommandation.urls\")),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path('api-auth/', include('rest_framework.urls')),\n    path(\"cat/\", include(\"categories.urls\")),\n    path(\"meals/\", include(\"meals.urls\")),\n    path(\"auth/\", include(\"users.urls\")),\n    path(\"search/\", include(\"recommandation.urls\")),\n    path(\"health/\" , include(\"healthprofiles.urls\"))\n]",
         "detail": "backend.urls",
         "documentation": {}
     },
@@ -1070,7 +1029,7 @@
         "kind": 6,
         "importPath": "categories.migrations.0001_initial",
         "description": "categories.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"category\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
         "detail": "categories.migrations.0001_initial",
         "documentation": {}
     },
@@ -1124,26 +1083,8 @@
         "kind": 6,
         "importPath": "healthprofiles.migrations.0001_initial",
         "description": "healthprofiles.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"HealthProfile\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='HealthProfile',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "healthprofiles.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "healthprofiles.migrations.0002_healthprofile_user",
-        "description": "healthprofiles.migrations.0002_healthprofile_user",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"healthprofiles\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"healthprofile\",\n            name=\"user\",\n            field=models.OneToOneField(",
-        "detail": "healthprofiles.migrations.0002_healthprofile_user",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "healthprofiles.migrations.0003_alter_healthprofile_user",
-        "description": "healthprofiles.migrations.0003_alter_healthprofile_user",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"healthprofiles\", \"0002_healthprofile_user\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"healthprofile\",\n            name=\"user\",\n            field=models.OneToOneField(",
-        "detail": "healthprofiles.migrations.0003_alter_healthprofile_user",
         "documentation": {}
     },
     {
@@ -1169,7 +1110,7 @@
         "kind": 6,
         "importPath": "healthprofiles.serializer",
         "description": "healthprofiles.serializer",
-        "peekOfCode": "class HealthProfileSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HealthProfile\n        fields = '__all__'",
+        "peekOfCode": "class HealthProfileSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HealthProfile\n        fields = ['calories' , 'carbohydrateContent' , 'cholesterolContent' , 'fatContent' , 'fiberContent' , 'proteinContent' , 'saturatedFatContent' , 'sodiumContent' , 'sugarContent' , 'condition_name' ]",
         "detail": "healthprofiles.serializer",
         "documentation": {}
     },
@@ -1178,7 +1119,7 @@
         "kind": 5,
         "importPath": "healthprofiles.urls",
         "description": "healthprofiles.urls",
-        "peekOfCode": "urlpatterns = [\n    path('' , HealthProfileView.as_view() , name='healthprofiles'),\n    path('<int:pk>/' , HealthProfileView.as_view() , name='healthprofilesbyid'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('' , HealthProfileView.as_view() , name='healthprofiles')\n]",
         "detail": "healthprofiles.urls",
         "documentation": {}
     },
@@ -1187,7 +1128,7 @@
         "kind": 6,
         "importPath": "healthprofiles.views",
         "description": "healthprofiles.views",
-        "peekOfCode": "class HealthProfileView(APIView):\n    def get(self, request):\n        healthprofiles = HealthProfile.objects.all()\n        serializer = HealthProfileSerializer(healthprofiles, many=True)\n        return Response(serializer.data , status=status.HTTP_200_OK)\n    def post(self , request):\n        serializer = HealthProfileSerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data , status=status.HTTP_201_CREATED)",
+        "peekOfCode": "class HealthProfileView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    def get(self, request):\n        user = request.user\n        if user is None:\n            return Response({\"message\" : \"User not found\"} , status=status.HTTP_404_NOT_FOUND)\n        healthprofile = HealthProfile.objects.filter(user=user).first()\n        if healthprofile :\n            serializer = HealthProfileSerializer(healthprofile)",
         "detail": "healthprofiles.views",
         "documentation": {}
     },
@@ -1286,26 +1227,8 @@
         "kind": 6,
         "importPath": "meals.migrations.0001_initial",
         "description": "meals.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Meal\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ingredient',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('ingredient', models.CharField(max_length=100)),",
         "detail": "meals.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
-        "description": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"meals\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"ingredient\",\n            fields=[\n                (\n                    \"id\",",
-        "detail": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
-        "description": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"meals\", \"0002_ingredient_keyword_meal_calories_and_more\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"meal\",\n            name=\"ingredients\",\n            field=models.ManyToManyField(\n                related_name=\"ingredients\", to=\"meals.ingredient\"",
-        "detail": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
         "documentation": {}
     },
     {
@@ -1345,20 +1268,29 @@
         "documentation": {}
     },
     {
-        "label": "keywordSerializer",
+        "label": "KeywordSerializer",
         "kind": 6,
         "importPath": "meals.serializers",
         "description": "meals.serializers",
-        "peekOfCode": "class keywordSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = keyword\n        fields = '__all__'\nclass ingredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)",
+        "peekOfCode": "class KeywordSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = keyword\n        fields = '__all__'\nclass KeywordSerialiserBasic(serializers.ModelSerializer):\n    class Meta :\n        model = keyword\n        fields = ['keyword']\nclass IngredientSerializer(serializers.ModelSerializer):\n    class Meta:",
         "detail": "meals.serializers",
         "documentation": {}
     },
     {
-        "label": "ingredientSerializer",
+        "label": "KeywordSerialiserBasic",
         "kind": 6,
         "importPath": "meals.serializers",
         "description": "meals.serializers",
-        "peekOfCode": "class ingredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)\n    ingredients = ingredientSerializer(many=True)\n    class Meta:\n        model = Meal\n        fields = '__all__'",
+        "peekOfCode": "class KeywordSerialiserBasic(serializers.ModelSerializer):\n    class Meta :\n        model = keyword\n        fields = ['keyword']\nclass IngredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = serializers.ListField(child=serializers.CharField())",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "IngredientSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class IngredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = serializers.ListField(child=serializers.CharField())\n    ingredients = serializers.ListField(child=serializers.CharField())\n    class Meta:\n        model = Meal\n        fields = '__all__'",
         "detail": "meals.serializers",
         "documentation": {}
     },
@@ -1367,7 +1299,7 @@
         "kind": 6,
         "importPath": "meals.serializers",
         "description": "meals.serializers",
-        "peekOfCode": "class MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)\n    ingredients = ingredientSerializer(many=True)\n    class Meta:\n        model = Meal\n        fields = '__all__'\n    def create(self , validated_data):\n        keywords_data = validated_data.pop('keywords')\n        ingredients_data = validated_data.pop('ingredients')\n        meal = Meal.objects.create(**validated_data)",
+        "peekOfCode": "class MealSerializer(serializers.ModelSerializer):\n    keywords = serializers.ListField(child=serializers.CharField())\n    ingredients = serializers.ListField(child=serializers.CharField())\n    class Meta:\n        model = Meal\n        fields = '__all__'\n    def create(self, validated_data):\n        keywords_data = validated_data.pop('keywords')\n        ingredients_data = validated_data.pop('ingredients')\n        meal = Meal.objects.create(**validated_data)",
         "detail": "meals.serializers",
         "documentation": {}
     },
@@ -1381,11 +1313,20 @@
         "documentation": {}
     },
     {
+        "label": "MealSerializerExtended",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class MealSerializerExtended(MealSerializerBasic):\n    class Meta:\n        model = Meal\n        fields = '__all__'",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "meals.urls",
         "description": "meals.urls",
-        "peekOfCode": "urlpatterns = [\n    path('' , MealView.as_view() , name='meal'),\n    path('<int:pk>' , MealView.as_view() , name='meal'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('' , MealView.as_view() , name='meal'),\n    path('<int:pk>' , MealView.as_view() , name='meal'),\n    path('keywords' , KeywordView.as_view() , name=\"Keywords\")\n]",
         "detail": "meals.urls",
         "documentation": {}
     },
@@ -1394,7 +1335,16 @@
         "kind": 6,
         "importPath": "meals.views",
         "description": "meals.views",
-        "peekOfCode": "class MealView(APIView):\n    def get(self , request , pk=None):\n        if pk:\n            meal = Meal.objects.get(id=pk)\n            if meal:\n                serializer = MealSerializer(meal)\n                return Response(serializer.data)\n            else:\n                return Response({\"message\" : \"Meal not found\"} , status=status.HTTP_404_NOT_FOUND)\n        else:",
+        "peekOfCode": "class MealView(APIView):\n    def get(self , request , pk=None):\n        if pk:\n            meal = Meal.objects.get(id=pk)\n            if meal:\n                serializer = MealSerializerExtended(meal)\n                return Response(serializer.data)\n            else:\n                return Response({\"message\" : \"Meal not found\"} , status=status.HTTP_404_NOT_FOUND)\n        else:",
+        "detail": "meals.views",
+        "documentation": {}
+    },
+    {
+        "label": "KeywordView",
+        "kind": 6,
+        "importPath": "meals.views",
+        "description": "meals.views",
+        "peekOfCode": "class KeywordView(APIView):\n    def get(self , request):\n        try:\n            keywords = keyword.objects.all()\n            if keywords:\n                serializer = KeywordSerialiserBasic(keywords , many=True)\n                return Response(serializer.data)\n            else :\n                return Response({\"message : No Data\"} , status=status.HTTP_204_NO_CONTENT)\n        except Exception as e:",
         "detail": "meals.views",
         "documentation": {}
     },

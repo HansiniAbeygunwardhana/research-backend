@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from .models import Meal , keyword , ingredient
-from .serializers import MealSerializer , MealSerializerBasic , MealSerializerExtended , KeywordSerialiserBasic , KeywordSerializer
+from .serializers import MealSerializer , MealSerializerBasic , MealSerializerExtended , KeywordSerialiserBasic
 from rest_framework import viewsets , status
 from rest_framework.response import Response
 
