@@ -1,35 +1,48 @@
 from rest_framework import serializers
 from .models import Meal , keyword , ingredient
 
-class keywordSerializer(serializers.ModelSerializer):
+class KeywordSerializer(serializers.ModelSerializer):
     class Meta:
         model = keyword
         fields = '__all__'
         
-class ingredientSerializer(serializers.ModelSerializer):
+class KeywordSerialiserBasic(serializers.ModelSerializer):
+    
+    
+    class Meta :
+        model = keyword
+        fields = ['keyword']
+        
+        
+class IngredientSerializer(serializers.ModelSerializer):
     class Meta:
         model = ingredient
         fields = '__all__'
         
 class MealSerializer(serializers.ModelSerializer):
-    keywords = keywordSerializer(many=True)
-    ingredients = ingredientSerializer(many=True)
-    
+    keywords = serializers.ListField(child=serializers.CharField())
+    ingredients = serializers.ListField(child=serializers.CharField())
+
     class Meta:
         model = Meal
         fields = '__all__'
-        
-    def create(self , validated_data):
+
+    def create(self, validated_data):
         keywords_data = validated_data.pop('keywords')
         ingredients_data = validated_data.pop('ingredients')
         meal = Meal.objects.create(**validated_data)
+
         for keyword_data in keywords_data:
-            keyword_obj , create = keyword.objects.get_or_create(keyword=keyword_data['keyword'])
+            keyword_obj, created = keyword.objects.get_or_create(keyword=keyword_data)
             meal.keywords.add(keyword_obj)
+
         for ingredient_data in ingredients_data:
-            ingredient_obj , create = ingredient.objects.get_or_create(ingredient=ingredient_data['ingredient'])
+            ingredient_obj, created = ingredient.objects.get_or_create(ingredient=ingredient_data)
             meal.ingredients.add(ingredient_obj)
+            
         return meal
+    
+
     
 class MealSerializerBasic(serializers.ModelSerializer):
     
@@ -44,4 +57,12 @@ class MealSerializerBasic(serializers.ModelSerializer):
         return [ingredient.ingredient for ingredient in obj.ingredients.all()]
     def get_keywords(self, obj):
         return [keyword.keyword for keyword in obj.keywords.all()]
+    
+class MealSerializerExtended(MealSerializerBasic):
+    
+    class Meta:
+        model = Meal
+        fields = '__all__'
+        
+
     

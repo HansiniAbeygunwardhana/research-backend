@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from .models import Meal , keyword , ingredient
-from .serializers import MealSerializer , keywordSerializer , ingredientSerializer , MealSerializerBasic
+from .serializers import MealSerializer , MealSerializerBasic , MealSerializerExtended , KeywordSerialiserBasic , KeywordSerializer
 from rest_framework import viewsets , status
 from rest_framework.response import Response
 
@@ -11,7 +11,7 @@ class MealView(APIView):
         if pk:
             meal = Meal.objects.get(id=pk)
             if meal:
-                serializer = MealSerializer(meal)
+                serializer = MealSerializerExtended(meal)
                 return Response(serializer.data)
             else:
                 return Response({"message" : "Meal not found"} , status=status.HTTP_404_NOT_FOUND)
@@ -35,3 +35,16 @@ class MealView(APIView):
             return Response(status=status.HTTP_204_NO_CONTENT)
         else :
             return Response(status=status.HTTP_404_NOT_FOUND)
+        
+
+class KeywordView(APIView):
+    def get(self , request):
+        try:
+            keywords = keyword.objects.all()
+            if keywords:
+                serializer = KeywordSerialiserBasic(keywords , many=True)
+                return Response(serializer.data)
+            else :
+                return Response({"message : No Data"} , status=status.HTTP_204_NO_CONTENT)
+        except Exception as e:
+                    return Response({"message": "An Error Occurred", "error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

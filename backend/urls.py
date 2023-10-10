@@ -11,4 +11,5 @@ urlpatterns = [
     path("meals/", include("meals.urls")),
     path("auth/", include("users.urls")),
     path("search/", include("recommandation.urls")),
+    path("health/" , include("healthprofiles.urls"))
 ]
