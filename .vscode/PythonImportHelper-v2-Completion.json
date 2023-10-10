@@ -1,0 +1,1518 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "importPath": "users.authentication",
+        "description": "users.authentication",
+        "isExtraImport": true,
+        "detail": "users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "SessionAuthentication",
+        "importPath": "rest_framework.authentication",
+        "description": "rest_framework.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAuthentication",
+        "importPath": "rest_framework.authentication",
+        "description": "rest_framework.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "keyword",
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "isExtraImport": true,
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationFailed",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationFailed",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "JWTLoginView",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordView",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.asgi",
+        "description": "backend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-o56l2jg2#4t1uvu=*k4orm94x%2ib+)1d1j9w8j597azjlm^zk\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-o56l2jg2#4t1uvu=*k4orm94x%2ib+)1d1j9w8j597azjlm^zk\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    'rest_framework',",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    'rest_framework',\n    \"corsheaders\",\n    \"categories\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'users.authentication.JWTAuthentication',\n    ),\n}\nMIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "ROOT_URLCONF = \"backend.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {  \n        'ENGINE': 'django.db.backends.mysql',  \n        'NAME': 'research_db',  \n        'USER': 'root',  \n        'PASSWORD': 'root',  \n        'HOST': '127.0.0.1',  ",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {  \n        'ENGINE': 'django.db.backends.mysql',  \n        'NAME': 'research_db',  \n        'USER': 'root',  \n        'PASSWORD': 'root',  \n        'HOST': '127.0.0.1',  \n        'PORT': '3306',  \n        'OPTIONS': {  \n            'init_command': \"SET sql_mode='STRICT_TRANS_TABLES'\"  ",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ALLOWED_ORIGINS = [",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\",\n    \"https://sub.example.com\",",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\",\n    \"https://sub.example.com\",\n    \"http://localhost:8080\",\n]\n# JWT settings",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\",\n    \"https://sub.example.com\",\n    \"http://localhost:8080\",\n]\n# JWT settings\nJWT_SECRET_KEY = 'your_secret_key'  # Replace with your actual secret key\nJWT_ALGORITHM = 'HS256'\nJWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    \"http://localhost:5173\",\n    \"https://sub.example.com\",\n    \"http://localhost:8080\",\n]\n# JWT settings\nJWT_SECRET_KEY = 'your_secret_key'  # Replace with your actual secret key\nJWT_ALGORITHM = 'HS256'\nJWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JWT_SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "JWT_SECRET_KEY = 'your_secret_key'  # Replace with your actual secret key\nJWT_ALGORITHM = 'HS256'\nJWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JWT_ALGORITHM",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "JWT_ALGORITHM = 'HS256'\nJWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JWT_EXPIRATION_DELTA",
+        "kind": 5,
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "peekOfCode": "JWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time",
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.urls",
+        "description": "backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path('api-auth/', include('rest_framework.urls')),\n    path(\"cat/\", include(\"categories.urls\")),\n    path(\"meals/\", include(\"meals.urls\")),\n    path(\"auth/\", include(\"users.urls\")),\n    path(\"search/\", include(\"recommandation.urls\")),\n]",
+        "detail": "backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.wsgi",
+        "description": "backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "categories.migrations.0001_initial",
+        "description": "categories.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"category\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "categories.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CategoriesConfig",
+        "kind": 6,
+        "importPath": "categories.apps",
+        "description": "categories.apps",
+        "peekOfCode": "class CategoriesConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"categories\"",
+        "detail": "categories.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "categories.models",
+        "description": "categories.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.name",
+        "detail": "categories.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "kind": 6,
+        "importPath": "categories.serializer",
+        "description": "categories.serializer",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Category\n        fields = '__all__'",
+        "detail": "categories.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "categories.urls",
+        "description": "categories.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', CategoryViewSet.as_view() , name='categories'),\n    path('<int:pk>', CategoryViewSet.as_view() , name='categoriesbyid'),\n]",
+        "detail": "categories.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryViewSet",
+        "kind": 6,
+        "importPath": "categories.views",
+        "description": "categories.views",
+        "peekOfCode": "class CategoryViewSet(APIView):\n    authentication_classes = [SessionAuthentication , JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    def post(self, request):\n        serializer = CategorySerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data , status=status.HTTP_201_CREATED) \n        return Response(serializer.errors , status=status.HTTP_400_BAD_REQUEST)\n    def get(self, request , pk=None):",
+        "detail": "categories.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "healthprofiles.migrations.0001_initial",
+        "description": "healthprofiles.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"HealthProfile\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "healthprofiles.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "healthprofiles.migrations.0002_healthprofile_user",
+        "description": "healthprofiles.migrations.0002_healthprofile_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"healthprofiles\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"healthprofile\",\n            name=\"user\",\n            field=models.OneToOneField(",
+        "detail": "healthprofiles.migrations.0002_healthprofile_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "healthprofiles.migrations.0003_alter_healthprofile_user",
+        "description": "healthprofiles.migrations.0003_alter_healthprofile_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"healthprofiles\", \"0002_healthprofile_user\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"healthprofile\",\n            name=\"user\",\n            field=models.OneToOneField(",
+        "detail": "healthprofiles.migrations.0003_alter_healthprofile_user",
+        "documentation": {}
+    },
+    {
+        "label": "HealthprofilesConfig",
+        "kind": 6,
+        "importPath": "healthprofiles.apps",
+        "description": "healthprofiles.apps",
+        "peekOfCode": "class HealthprofilesConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"healthprofiles\"",
+        "detail": "healthprofiles.apps",
+        "documentation": {}
+    },
+    {
+        "label": "HealthProfile",
+        "kind": 6,
+        "importPath": "healthprofiles.models",
+        "description": "healthprofiles.models",
+        "peekOfCode": "class HealthProfile(models.Model):\n    calories = models.FloatField(null=False , default=0)\n    carbohydrateContent = models.FloatField(null=False , default=0)\n    cholesterolContent = models.FloatField(null=False , default=0)\n    fatContent = models.FloatField(null=False , default=0)\n    fiberContent = models.FloatField(null=False , default=0)\n    proteinContent = models.FloatField(null=False , default=0)\n    saturatedFatContent = models.FloatField(null=False , default=0)\n    sodiumContent = models.FloatField(null=False , default=0)\n    sugarContent = models.FloatField(null=False , default=0)",
+        "detail": "healthprofiles.models",
+        "documentation": {}
+    },
+    {
+        "label": "HealthProfileSerializer",
+        "kind": 6,
+        "importPath": "healthprofiles.serializer",
+        "description": "healthprofiles.serializer",
+        "peekOfCode": "class HealthProfileSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = HealthProfile\n        fields = '__all__'",
+        "detail": "healthprofiles.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "healthprofiles.urls",
+        "description": "healthprofiles.urls",
+        "peekOfCode": "urlpatterns = [\n    path('' , HealthProfileView.as_view() , name='healthprofiles'),\n    path('<int:pk>/' , HealthProfileView.as_view() , name='healthprofilesbyid'),\n]",
+        "detail": "healthprofiles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "HealthProfileView",
+        "kind": 6,
+        "importPath": "healthprofiles.views",
+        "description": "healthprofiles.views",
+        "peekOfCode": "class HealthProfileView(APIView):\n    def get(self, request):\n        healthprofiles = HealthProfile.objects.all()\n        serializer = HealthProfileSerializer(healthprofiles, many=True)\n        return Response(serializer.data , status=status.HTTP_200_OK)\n    def post(self , request):\n        serializer = HealthProfileSerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data , status=status.HTTP_201_CREATED)",
+        "detail": "healthprofiles.views",
+        "documentation": {}
+    },
+    {
+        "label": "meal_data['RecipeIngredientParts']",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "meal_data['RecipeIngredientParts'] = meal_data['RecipeIngredientParts'].str.lower()\n### Preparing database\ningredient_db = set()\nfor ingredients in meal_data['RecipeIngredientParts']:\n    ingredient_list = ingredients.split(',')\n    ingredient_db.update([ingredient.strip() for ingredient in ingredient_list])\n##### Converting data in to feature vectors\nvectorizer = TfidfVectorizer()\nmeal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "ingredient_db",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "ingredient_db = set()\nfor ingredients in meal_data['RecipeIngredientParts']:\n    ingredient_list = ingredients.split(',')\n    ingredient_db.update([ingredient.strip() for ingredient in ingredient_list])\n##### Converting data in to feature vectors\nvectorizer = TfidfVectorizer()\nmeal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model\nimport joblib\nmodel_filename = \"ingredients-aware-model.pkl\"",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "vectorizer",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "vectorizer = TfidfVectorizer()\nmeal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model\nimport joblib\nmodel_filename = \"ingredients-aware-model.pkl\"\nknn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "meal_vectors",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "meal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)\n## Importing the recommendation model\nimport joblib\nmodel_filename = \"ingredients-aware-model.pkl\"\nknn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "model_filename",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "model_filename = \"ingredients-aware-model.pkl\"\nknn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "knn",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "knn = joblib.load(model_filename)\nprint(\"Loading Model\", model_filename)\n# Taking user inputs\nuser_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "user_input",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "user_input = input(\"Enter your prefered ingredients (comma-separated): \")\nuser_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "user_ingredients",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "user_ingredients = [ingredient.strip().lower() for ingredient in user_input.split(\",\")]\n# Processing user inputs\nuser_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "user_vector",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system copy",
+        "description": "machine_learning_model.meal_recommendation_system copy",
+        "peekOfCode": "user_vector = vectorizer.transform([', '.join(user_ingredients)])\ndistances, indices = knn.kneighbors(user_vector)\n### Display recommendations\nprint(\"Recommended Meals:\")\nfor idx in indices[0]:\n    print(meal_data.loc[idx, 'Name'])",
+        "detail": "machine_learning_model.meal_recommendation_system copy",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "machine_learning_model.meal_recommendation_system",
+        "description": "machine_learning_model.meal_recommendation_system",
+        "peekOfCode": "conn = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"root\",\n    database=\"sample_data\"\n)\nif conn.is_connected():\n    print('Connected to MySQL database')\n    # Load meal data from MySQL\n    meal_data = pd.read_sql('SELECT * FROM mytable', conn)",
+        "detail": "machine_learning_model.meal_recommendation_system",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "meals.migrations.0001_initial",
+        "description": "meals.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Meal\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "meals.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
+        "description": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"meals\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"ingredient\",\n            fields=[\n                (\n                    \"id\",",
+        "detail": "meals.migrations.0002_ingredient_keyword_meal_calories_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
+        "description": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"meals\", \"0002_ingredient_keyword_meal_calories_and_more\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"meal\",\n            name=\"ingredients\",\n            field=models.ManyToManyField(\n                related_name=\"ingredients\", to=\"meals.ingredient\"",
+        "detail": "meals.migrations.0003_alter_meal_ingredients_alter_meal_keywords_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "MealsConfig",
+        "kind": 6,
+        "importPath": "meals.apps",
+        "description": "meals.apps",
+        "peekOfCode": "class MealsConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"meals\"",
+        "detail": "meals.apps",
+        "documentation": {}
+    },
+    {
+        "label": "keyword",
+        "kind": 6,
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "peekOfCode": "class keyword(models.Model):\n    keyword = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.keyword\nclass ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.ingredient",
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "ingredient",
+        "kind": 6,
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "peekOfCode": "class ingredient(models.Model):\n    ingredient = models.CharField(max_length=100, null=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self) -> str:\n        return self.ingredient\n# Create your models here.\nclass Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)\n    calories = models.FloatField(null=False , default=0)",
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "Meal",
+        "kind": 6,
+        "importPath": "meals.models",
+        "description": "meals.models",
+        "peekOfCode": "class Meal(models.Model):\n    name = models.CharField(max_length=100, null=False , unique=True)\n    description = models.TextField(null=False)\n    calories = models.FloatField(null=False , default=0)\n    carbohydrateContent = models.FloatField(null=False , default=0)\n    cholesterolContent = models.FloatField(null=False , default=0)\n    fatContent = models.FloatField(null=False , default=0)\n    fiberContent = models.FloatField(null=False , default=0)\n    proteinContent = models.FloatField(null=False , default=0)\n    saturatedFatContent = models.FloatField(null=False , default=0)",
+        "detail": "meals.models",
+        "documentation": {}
+    },
+    {
+        "label": "keywordSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class keywordSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = keyword\n        fields = '__all__'\nclass ingredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ingredientSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class ingredientSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ingredient\n        fields = '__all__'\nclass MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)\n    ingredients = ingredientSerializer(many=True)\n    class Meta:\n        model = Meal\n        fields = '__all__'",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MealSerializer",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class MealSerializer(serializers.ModelSerializer):\n    keywords = keywordSerializer(many=True)\n    ingredients = ingredientSerializer(many=True)\n    class Meta:\n        model = Meal\n        fields = '__all__'\n    def create(self , validated_data):\n        keywords_data = validated_data.pop('keywords')\n        ingredients_data = validated_data.pop('ingredients')\n        meal = Meal.objects.create(**validated_data)",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "MealSerializerBasic",
+        "kind": 6,
+        "importPath": "meals.serializers",
+        "description": "meals.serializers",
+        "peekOfCode": "class MealSerializerBasic(serializers.ModelSerializer):\n    ingredients = serializers.SerializerMethodField()\n    keywords = serializers.SerializerMethodField()\n    class Meta:\n        model = Meal\n        fields = ['id' , 'name' , 'description' ,'image' , 'price' , 'ingredients' , 'keywords']\n    def get_ingredients(self, obj):\n        return [ingredient.ingredient for ingredient in obj.ingredients.all()]\n    def get_keywords(self, obj):\n        return [keyword.keyword for keyword in obj.keywords.all()]",
+        "detail": "meals.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "meals.urls",
+        "description": "meals.urls",
+        "peekOfCode": "urlpatterns = [\n    path('' , MealView.as_view() , name='meal'),\n    path('<int:pk>' , MealView.as_view() , name='meal'),\n]",
+        "detail": "meals.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MealView",
+        "kind": 6,
+        "importPath": "meals.views",
+        "description": "meals.views",
+        "peekOfCode": "class MealView(APIView):\n    def get(self , request , pk=None):\n        if pk:\n            meal = Meal.objects.get(id=pk)\n            if meal:\n                serializer = MealSerializer(meal)\n                return Response(serializer.data)\n            else:\n                return Response({\"message\" : \"Meal not found\"} , status=status.HTTP_404_NOT_FOUND)\n        else:",
+        "detail": "meals.views",
+        "documentation": {}
+    },
+    {
+        "label": "RecommandationConfig",
+        "kind": 6,
+        "importPath": "recommandation.apps",
+        "description": "recommandation.apps",
+        "peekOfCode": "class RecommandationConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"recommandation\"",
+        "detail": "recommandation.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "recommandation.urls",
+        "description": "recommandation.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', RecommandationView.as_view()),\n]",
+        "detail": "recommandation.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RecommandationView",
+        "kind": 6,
+        "importPath": "recommandation.views",
+        "description": "recommandation.views",
+        "peekOfCode": "class RecommandationView(APIView):\n    permission_classes = [AllowAny]\n    authentication_classes = []\n    def get(self, request : HttpRequest):\n        meal_type = request.GET.getlist('meal' , [])\n        meal_type = [meal.lower() for meal in meal_type]\n        print(meal_type)\n        recommended_meals = []\n        if conn.is_connected():\n            print('Connected to MySQL database')",
+        "detail": "recommandation.views",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "recommandation.views",
+        "description": "recommandation.views",
+        "peekOfCode": "conn = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"root\",\n    database=\"sample_data\"\n)\nclass RecommandationView(APIView):\n    permission_classes = [AllowAny]\n    authentication_classes = []\n    def get(self, request : HttpRequest):",
+        "detail": "recommandation.views",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "users.apps",
+        "description": "users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"users\"",
+        "detail": "users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "kind": 6,
+        "importPath": "users.authentication",
+        "description": "users.authentication",
+        "peekOfCode": "class JWTAuthentication(BaseAuthentication):\n    def authenticate(self, request):\n        token = self.get_token_from_header(request)\n        if token is None:\n            return None\n        try :\n            payload = jwt.decode(token, settings.JWT_SECRET_KEY, algorithms=settings.JWT_ALGORITHM)\n            user_id = payload.get(\"user_id\")\n            user = User.objects.get(id=user_id)\n            return (user, None)",
+        "detail": "users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "users.urls",
+        "description": "users.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login/', JWTLoginView.as_view() , name=\"login\"),\n    path('register/', RegisterView.as_view() , name=\"register\"),\n    path('logout/', LogoutView.as_view() , name=\"logout\"),\n    path('reset-password/', ResetPasswordView.as_view() , name=\"reset-password\"),\n]",
+        "detail": "users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "generate_access_token",
+        "kind": 2,
+        "importPath": "users.utils",
+        "description": "users.utils",
+        "peekOfCode": "def generate_access_token(user):\n    payload = {\n        \"user_id\": user.id,\n        \"username\": user.username,\n        \"exp\": datetime.datetime.utcnow() + settings.JWT_EXPIRATION_DELTA,\t\n    }\n    return jwt.encode(payload, settings.JWT_SECRET_KEY, algorithm=settings.JWT_ALGORITHM)",
+        "detail": "users.utils",
+        "documentation": {}
+    },
+    {
+        "label": "JWTLoginView",
+        "kind": 6,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "class JWTLoginView(APIView):\n    def post(self, request):\n        username = request.data.get(\"username\")\n        password = request.data.get(\"password\")\n        try:\n            user = User.objects.get(username=username)\n        except User.DoesNotExist:\n            raise AuthenticationFailed(\"User not found!\")\n        if not user.check_password(password):\n            raise AuthenticationFailed(\"Incorrect password!\")",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "class RegisterView(APIView):\n    def post(self, request):\n        username = request.data.get(\"username\")\n        password = request.data.get(\"password\")\n        email = request.data.get(\"email\")\n        if User.objects.filter(username=username).exists():\n            raise AuthenticationFailed(\"Username already exists!\")\n        if User.objects.filter(email=email).exists():\n            raise AuthenticationFailed(\"Email already exists!\")\n        user = User.objects.create(username=username, email=email)",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "kind": 6,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "class LogoutView(APIView):\n    def post(self, request):\n        response = Response()\n        response.delete_cookie(\"jwt\")\n        response.data = {\n            \"message\": \"success\"\n        }\n        return response\n#view to reset password\nclass ResetPasswordView(APIView):",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordView",
+        "kind": 6,
+        "importPath": "users.views",
+        "description": "users.views",
+        "peekOfCode": "class ResetPasswordView(APIView):\n    def post(self, request):\n        username = request.data.get(\"username\")\n        password = request.data.get(\"password\")\n        try:\n            user = User.objects.get(username=username)\n            user.set_password(password)\n            return Response({\"message\": \"Password reset success!\"})\n        except User.DoesNotExist:\n            raise AuthenticationFailed(\"User not found!\")",
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"backend.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
