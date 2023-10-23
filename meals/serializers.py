@@ -63,5 +63,11 @@ class MealSerializerExtended(MealSerializerBasic):
         model = Meal
         fields = '__all__'
         
+class MealListSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = Meal
+        fields = ['id' , 'name' ]
+        
 
     

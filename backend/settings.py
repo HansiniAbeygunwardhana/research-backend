@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -155,6 +156,7 @@ CORS_ALLOWED_ORIGINS = [
 JWT_SECRET_KEY = 'your_secret_key'  # Replace with your actual secret key
 JWT_ALGORITHM = 'HS256'
 JWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time
+
 
 
 
