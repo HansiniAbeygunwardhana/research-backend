@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "categories",
     "meals",
     "healthprofiles",
+    "orders"
 ]
 
 REST_FRAMEWORK = {
