@@ -1,5 +1,8 @@
-from django.db import models
+from django.db import models , transaction
 from cloudinary.models import CloudinaryField
+from recommandation.models import Recipe
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 class keyword(models.Model):
     keyword = models.CharField(max_length=100, null=False)
@@ -41,5 +44,44 @@ class Meal(models.Model):
     def __str__(self) -> str:
         return self.name
     
-    
-    
+    def save(self, *args, **kwargs):
+        if not self.pk:
+            # Save the Meal instance first to generate an ID
+            super(Meal, self).save(*args, **kwargs)
+
+            # Wrap the count printing in a transaction
+            transaction.on_commit(self.save_recepie)
+
+    def save_recepie(self):
+        keywords_list = []
+        ingredients_list = []  
+        keywords_string = ''
+        ingredients_string = ''
+        for keyword in self.keywords.all():
+            keywords_list.append('"' + keyword.keyword + '"')
+        for ingredient in self.ingredients.all():
+            ingredients_list.append('"' + ingredient.ingredient + '"')
+            
+        keywords_string = ', '.join(keywords_list)
+        ingredients_string = ', '.join(ingredients_list)
+            
+            # Now create and save the Recipe object
+        recipe = Recipe(
+            Name=self.name,
+            Description=self.description,
+            Calories=self.calories,
+            FatContent=self.fatContent,
+            SaturatedFatContent=self.saturatedFatContent,
+            CholesterolContent=self.cholesterolContent,
+            SodiumContent=self.sodiumContent,
+            CarbohydrateContent=self.carbohydrateContent,
+            FiberContent=self.fiberContent,
+            SugarContent=self.sugarContent,
+            ProteinContent=self.proteinContent,
+            Keywords = "c(" + keywords_string +  ")",
+            RecipeIngredientParts = "c(" + ingredients_string +  ")",
+        )
+        recipe.save()
+        
+        print('Number of keywords:', keywords_string)
+        print('Number of ingredients:', ingredients_string)

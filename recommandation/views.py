@@ -21,7 +21,7 @@ conn = mysql.connector.connect(
     host="localhost",
     user="root",
     password="root",
-    database="sample_data"
+    database="research_db"
 )
 
 
@@ -45,10 +45,10 @@ class RecommandationView(APIView):
             print('Connected to MySQL database')
 
             # Load meal data from MySQL
-            meal_data = pd.read_sql('SELECT * FROM meals', conn)
+            meal_data = pd.read_sql('SELECT * FROM recommandation_recipe', conn)
             meal_data['RecipeIngredientParts'] = meal_data['RecipeIngredientParts'].str.lower()
             reader = Reader(rating_scale=(1, 5))
-            order_data = pd.read_sql('SELECT * FROM reviews', conn)
+            order_data = pd.read_sql('SELECT * FROM recommandation_review', conn)
             
             user_id = 2008
             user_ingredients = meal_type

@@ -12,7 +12,7 @@ class ItemsOrderSerializer(serializers.ModelSerializer):
         model = Order
         fields = ['id' , 'quantity']
         
-class OrderBasicSerializer(serializers.ModelSerializer):\
+class OrderBasicSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Order

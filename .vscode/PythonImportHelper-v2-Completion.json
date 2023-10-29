@@ -372,7 +372,39 @@
         "documentation": {}
     },
     {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -397,6 +429,14 @@
     },
     {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -901,6 +941,14 @@
         "documentation": {}
     },
     {
+        "label": "Recipe",
+        "importPath": "recommandation.models",
+        "description": "recommandation.models",
+        "isExtraImport": true,
+        "detail": "recommandation.models",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -974,6 +1022,22 @@
         "description": "cloudinary.models",
         "isExtraImport": true,
         "detail": "cloudinary.models",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
         "documentation": {}
     },
     {
@@ -1833,7 +1897,7 @@
         "kind": 6,
         "importPath": "orders.serializers",
         "description": "orders.serializers",
-        "peekOfCode": "class ItemsOrderSerializer(serializers.ModelSerializer):\n    id = serializers.IntegerField()\n    quantity = serializers.IntegerField()\n    class Meta:\n        model = Order\n        fields = ['id' , 'quantity']\nclass OrderBasicSerializer(serializers.ModelSerializer):\\\n    class Meta:\n        model = Order\n        fields = ['id' , 'createdAt' , 'total'  , 'status']",
+        "peekOfCode": "class ItemsOrderSerializer(serializers.ModelSerializer):\n    id = serializers.IntegerField()\n    quantity = serializers.IntegerField()\n    class Meta:\n        model = Order\n        fields = ['id' , 'quantity']\nclass OrderBasicSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Order\n        fields = ['id' , 'createdAt' , 'total'  , 'status']",
         "detail": "orders.serializers",
         "documentation": {}
     },
@@ -1842,7 +1906,7 @@
         "kind": 6,
         "importPath": "orders.serializers",
         "description": "orders.serializers",
-        "peekOfCode": "class OrderBasicSerializer(serializers.ModelSerializer):\\\n    class Meta:\n        model = Order\n        fields = ['id' , 'createdAt' , 'total'  , 'status']\nclass UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ( 'username', 'email')\nclass MealSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "peekOfCode": "class OrderBasicSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Order\n        fields = ['id' , 'createdAt' , 'total'  , 'status']\nclass UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ( 'username', 'email')\nclass MealSerializer(serializers.ModelSerializer):\n    class Meta:",
         "detail": "orders.serializers",
         "documentation": {}
     },
@@ -1896,7 +1960,7 @@
         "kind": 6,
         "importPath": "orders.views",
         "description": "orders.views",
-        "peekOfCode": "class OrderCreateView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    def post(self, request, *args, **kwargs):\n        data = request.data\n        serializer = ItemsOrderSerializer(data=data, many=True)\n        if serializer.is_valid():\n            user = request.user\n            # Create an Order instance for the user\n            order = Order.objects.create(",
+        "peekOfCode": "class OrderCreateView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    def post(self, request, *args, **kwargs):\n        user = request.user\n        data = request.data\n        serializer = ItemsOrderSerializer(data=data, many=True)\n        if serializer.is_valid():\n            # Create an Order instance for the user\n            order = Order.objects.create(",
         "detail": "orders.views",
         "documentation": {}
     },
@@ -1905,7 +1969,7 @@
         "kind": 6,
         "importPath": "orders.views",
         "description": "orders.views",
-        "peekOfCode": "class OrderView(APIView):\n    def get(self , request , pk=None):\n        if pk:\n            try:\n                order = Order.objects.get(pk=pk)\n                serializer = OrderSerializer(order)\n                return Response(serializer.data , status=status.HTTP_200_OK)\n            except Order.DoesNotExist:\n                return Response({'message': f'Order with ID {pk} not found'}, status=status.HTTP_400_BAD_REQUEST)\n        else:",
+        "peekOfCode": "class OrderView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    def get(self , request , pk=None):\n        user = request.user\n        print(user)\n        if pk:\n            try:\n                order = Order.objects.get(pk=pk)\n                serializer = OrderSerializer(order)",
         "detail": "orders.views",
         "documentation": {}
     },
@@ -1925,6 +1989,24 @@
         "description": "recommandation.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"auth\", \"0012_alter_user_first_name_max_length\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Recipe\",\n            fields=[\n                (\"RecipeId\", models.IntegerField(primary_key=True, serialize=False)),",
         "detail": "recommandation.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recommandation.migrations.0002_alter_recipe_aggregatedrating_alter_recipe_authorid_and_more",
+        "description": "recommandation.migrations.0002_alter_recipe_aggregatedrating_alter_recipe_authorid_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"recommandation\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"recipe\",\n            name=\"AggregatedRating\",\n            field=models.CharField(blank=True, max_length=3, null=True),\n        ),",
+        "detail": "recommandation.migrations.0002_alter_recipe_aggregatedrating_alter_recipe_authorid_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recommandation.migrations.0003_alter_recipe_recipeid",
+        "description": "recommandation.migrations.0003_alter_recipe_recipeid",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\n            \"recommandation\",\n            \"0002_alter_recipe_aggregatedrating_alter_recipe_authorid_and_more\",\n        ),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"recipe\",",
+        "detail": "recommandation.migrations.0003_alter_recipe_recipeid",
         "documentation": {}
     },
     {
@@ -1959,7 +2041,7 @@
         "kind": 6,
         "importPath": "recommandation.models",
         "description": "recommandation.models",
-        "peekOfCode": "class Recipe(models.Model):\n    RecipeId = models.IntegerField(primary_key=True)\n    Name = models.CharField(max_length=65)\n    AuthorId = models.IntegerField()\n    AuthorName = models.CharField(max_length=20)\n    CookTime = models.CharField(max_length=9)\n    PrepTime = models.CharField(max_length=8)\n    TotalTime = models.CharField(max_length=11)\n    DatePublished = models.CharField(max_length=20)\n    Description = models.TextField()",
+        "peekOfCode": "class Recipe(models.Model):\n    RecipeId = models.AutoField(primary_key=True)\n    Name = models.CharField(max_length=65)\n    AuthorId = models.IntegerField(null=True  , blank=True)\n    AuthorName = models.CharField(max_length=20 , null=True  , blank=True)\n    CookTime = models.CharField(max_length=9 , null=True  , blank=True)\n    PrepTime = models.CharField(max_length=8 , null=True  , blank=True)\n    TotalTime = models.CharField(max_length=11 , null=True  , blank=True)\n    DatePublished = models.CharField(max_length=20 , null=True  , blank=True)\n    Description = models.TextField( null=True  , blank=True)",
         "detail": "recommandation.models",
         "documentation": {}
     },
@@ -1995,7 +2077,7 @@
         "kind": 5,
         "importPath": "recommandation.views",
         "description": "recommandation.views",
-        "peekOfCode": "conn = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"root\",\n    database=\"sample_data\"\n)\nclass RecommandationView(APIView):\n    permission_classes = [AllowAny]\n    authentication_classes = []\n    def get(self, request : HttpRequest):",
+        "peekOfCode": "conn = mysql.connector.connect(\n    host=\"localhost\",\n    user=\"root\",\n    password=\"root\",\n    database=\"research_db\"\n)\nclass RecommandationView(APIView):\n    permission_classes = [AllowAny]\n    authentication_classes = []\n    def get(self, request : HttpRequest):",
         "detail": "recommandation.views",
         "documentation": {}
     },

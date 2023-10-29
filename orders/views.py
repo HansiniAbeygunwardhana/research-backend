@@ -15,12 +15,11 @@ class OrderCreateView(APIView):
     
     
     def post(self, request, *args, **kwargs):
+        user = request.user
         data = request.data
         serializer = ItemsOrderSerializer(data=data, many=True)
 
         if serializer.is_valid():
-            user = request.user
-
             # Create an Order instance for the user
             order = Order.objects.create(
                 user=user,
@@ -51,7 +50,12 @@ class OrderCreateView(APIView):
 
               
 class OrderView(APIView):
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    
     def get(self , request , pk=None):
+        user = request.user
+        print(user)
         if pk:
             try:
                 order = Order.objects.get(pk=pk)
@@ -60,7 +64,7 @@ class OrderView(APIView):
             except Order.DoesNotExist:
                 return Response({'message': f'Order with ID {pk} not found'}, status=status.HTTP_400_BAD_REQUEST)
         else:
-            orders = Order.objects.all()
+            orders = Order.objects.filter(user=user)
             serializer = OrderBasicSerializer(orders , many=True)
             return Response(serializer.data , status=status.HTTP_200_OK)
         
