@@ -32,10 +32,11 @@ class MealSerializer(serializers.ModelSerializer):
 class OrderItemSerializer(serializers.ModelSerializer):
     name = serializers.CharField(source='meal.name', read_only=True)
     price = serializers.DecimalField(source='meal.price', read_only=True , max_digits=10, decimal_places=2)
+    image_1 = serializers.ImageField(source='meal.image_1', read_only=True)
 
     class Meta:
         model = OrderItem
-        fields = ('name', 'price', 'quantity')
+        fields = ('name', 'price', 'quantity' , 'image_1')
 
 class OrderSerializer(serializers.ModelSerializer):
     items = OrderItemSerializer(many=True  , source='orderitem_set')  # Use the OrderItemSerializer to serialize related items

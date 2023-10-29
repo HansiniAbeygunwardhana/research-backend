@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import datetime
+import cloudinary_storage
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,11 +42,14 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'rest_framework',
     "corsheaders",
+    'cloudinary' ,
+    'cloudinary_storage' ,
     
     "categories",
     "meals",
     "healthprofiles",
-    "orders"
+    "orders",
+    "recommandation",
 ]
 
 REST_FRAMEWORK = {
@@ -158,6 +162,22 @@ JWT_SECRET_KEY = 'your_secret_key'  # Replace with your actual secret key
 JWT_ALGORITHM = 'HS256'
 JWT_EXPIRATION_DELTA = datetime.timedelta(hours=1)  # Token expiration time
 
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dfvhftecz',
+    'API_KEY' : '859767759188636' ,
+    'API_SECRET' : '0shsAbsyZMqv5xgbcml8FCM48sQ'
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+import cloudinary
+
+cloudinary.config( 
+  cloud_name = "dfvhftecz", 
+  api_key = "454366385488942", 
+  api_secret = "0shsAbsyZMqv5xgbcml8FCM48sQ" 
+)
 
 
 

@@ -65,12 +65,14 @@ class OrderView(APIView):
             return Response(serializer.data , status=status.HTTP_200_OK)
         
 class LastOrderView(APIView):
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
     
     def get(self , request):
         user = request.user
         try:
-            order = Order.objects.filter(user=user).last()
-            serializer = OrderSerializer(order)
+            latest_order = Order.objects.filter(user=user).latest('createdAt')
+            serializer = OrderSerializer(latest_order)
             return Response(serializer.data , status=status.HTTP_200_OK)
         except Order.DoesNotExist:
             return Response({'message': f'not found'}, status=status.HTTP_400_BAD_REQUEST)

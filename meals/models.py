@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 class keyword(models.Model):
     keyword = models.CharField(max_length=100, null=False)
@@ -27,11 +28,14 @@ class Meal(models.Model):
     saturatedFatContent = models.FloatField(null=False , default=0)
     sodiumContent = models.FloatField(null=False , default=0)
     sugarContent = models.FloatField(null=False , default=0)
-    image = models.CharField(max_length=100, null=False)
     price = models.FloatField(null=False , default=0)
     keywords = models.ManyToManyField(keyword , related_name='keywords')
     ingredients = models.ManyToManyField(ingredient , related_name='ingredients')
     created_at = models.DateTimeField(auto_now_add=True)
+    image_1 = CloudinaryField('Image 1', null=True, blank=True)
+    image_2 = CloudinaryField('Image 2', null=True, blank=True)
+    image_3 = CloudinaryField('Image 3', null=True, blank=True)
+    image_4 = CloudinaryField('Image 4', null=True, blank=True)
     
     
     def __str__(self) -> str:

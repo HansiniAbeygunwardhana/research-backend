@@ -1,14 +1,19 @@
 from django.http import HttpRequest
 from django.shortcuts import render
 from rest_framework.views import APIView
-from meals.models import keyword
+from meals.models import keyword, Meal
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework import status
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
+from surprise import Dataset, Reader, SVD
 import mysql.connector
+from .models import Review, Recipe, UserProfile
+from .utils import get_recommendations
+from meals.models import Meal
+from meals.serializers import MealSerializerBasic
 
 # Here Lies the machine learning model
 
@@ -30,45 +35,51 @@ class RecommandationView(APIView):
         meal_type = [meal.lower() for meal in meal_type]
         print(meal_type)
         recommended_meals = []
+        healthy_meals = []
+        based_on_previous_orders = []
+        recommended_meals_obj = []
+        healthy_meals_obj = []
+        based_on_previous_orders_obj = []
         
         if conn.is_connected():
             print('Connected to MySQL database')
 
             # Load meal data from MySQL
-            meal_data = pd.read_sql('SELECT * FROM mytable', conn)
+            meal_data = pd.read_sql('SELECT * FROM meals', conn)
             meal_data['RecipeIngredientParts'] = meal_data['RecipeIngredientParts'].str.lower()
-
-            # Prepare database
-            ingredient_db = set()
-            for ingredients in meal_data['RecipeIngredientParts']:
-                ingredient_list = ingredients.split(',')
-                ingredient_db.update([ingredient.strip() for ingredient in ingredient_list])
-
-            # Convert data into feature vectors
-            vectorizer = TfidfVectorizer()
-            meal_vectors = vectorizer.fit_transform(meal_data['RecipeIngredientParts'].values)
-
-            # Load the recommendation model
-            model_filename = "ingredients-aware-model.pkl"
-            knn = joblib.load(model_filename)
-            print("Loading Model", model_filename)
-
-            # Taking user inputs
+            reader = Reader(rating_scale=(1, 5))
+            order_data = pd.read_sql('SELECT * FROM reviews', conn)
+            
+            user_id = 2008
             user_ingredients = meal_type
-
-            # Processing user inputs
-            user_vector = vectorizer.transform([', '.join(user_ingredients)])
-            distances, indices = knn.kneighbors(user_vector)
-
-            # Display recommendations
-            print("Recommended Meals:")
-            for idx in indices[0]:
-                recommended_meals.append(meal_data.loc[idx, 'Name'])
-
+            recommended_meals, healthy_meals, based_on_previous_orders = get_recommendations(user_id, user_ingredients, meal_data, order_data)
+            
+            for meal_name in recommended_meals:
+                try:
+                    meal = Meal.objects.get(name=meal_name)
+                    recommended_meals_obj.append(MealSerializerBasic(meal).data)
+                except Meal.DoesNotExist:
+                    pass
+            
+            for meal_name in healthy_meals:
+                try:
+                    meal = Meal.objects.get(name=meal_name)
+                    healthy_meals_obj.append((MealSerializerBasic(meal).data))
+                except Meal.DoesNotExist:
+                    pass
+                
+            for meal_name in based_on_previous_orders:
+                try:
+                    meal = Meal.objects.get(name=meal_name)
+                    based_on_previous_orders_obj.append((MealSerializerBasic(meal).data))
+                except Meal.DoesNotExist:
+                    pass 
             
             responseData = {
-                'message' : 'Recommandation Successfull',
-                'meals' : recommended_meals
+                'message' : 'Recommandation Successful',
+                'recommended_meals' : recommended_meals_obj,
+                'healthy_meals' : healthy_meals_obj,
+                'based_on_previous_orders' : based_on_previous_orders_obj
             }
             
             return Response(responseData , status=status.HTTP_200_OK) 
@@ -81,7 +92,9 @@ class RecommandationView(APIView):
             }
             
             return Response(responseData , status=status.HTTP_400_BAD_REQUEST)
-            
+  
+  
+          
             
         
         

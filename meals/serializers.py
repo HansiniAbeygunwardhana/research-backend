@@ -50,7 +50,7 @@ class MealSerializerBasic(serializers.ModelSerializer):
     
     class Meta:
         model = Meal
-        fields = ['id' , 'name' , 'description' ,'image' , 'price' , 'ingredients' , 'keywords']
+        fields = ['id' , 'name' , 'description' ,'image_1' , 'price' , 'ingredients' , 'keywords']
         
     def get_ingredients(self, obj):
         return [ingredient.ingredient for ingredient in obj.ingredients.all()]

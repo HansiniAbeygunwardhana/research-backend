@@ -17,7 +17,6 @@ class OrderItem(models.Model):
 
 # Create your models here.
 class Order(models.Model):
-    id = models.AutoField(primary_key=True , default=100000)
     createdAt = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     items = models.ManyToManyField('meals.Meal', through='OrderItem')
